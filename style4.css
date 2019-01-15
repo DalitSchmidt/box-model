@@ -1,0 +1,44 @@
+section {
+    width: 1330px;
+    height: 620px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+div {
+    height: 400px;
+    width: 670px;
+    background-color: red;
+    float: left;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+div:nth-of-type(2n+1) {
+    margin-left: 0;
+    background-color: #0F70A1;
+    height: 100px;
+    width: 1330px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+aside {
+    background-color: aqua;
+    width: 320px;
+    height: 400px;
+    float: right;
+    margin-top: -510px;
+    margin-right: 330px;
+}
+
+.aside {
+    background-color: yellow;
+    width: 320px;
+    height: 400px;
+    float: right;
+    margin-top: -510px;
+    margin-right: 0;
+}

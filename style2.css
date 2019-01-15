@@ -1,0 +1,40 @@
+section {
+    width: 1330px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.text {
+    background-color: #0F70A1;
+    height: 100px;
+    width: 1330px;
+    float: right;
+    margin: 0 -195px 420px 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1000px;
+    height: 380px;
+    background-color: #0F70A1;
+    float: left;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 120px;
+    height: 420px;
+    float: right;
+    margin-right: 195px;
+    box-sizing: border-box;
+}
+
+.list {
+    width: 315px;
+    height: 380px;
+    background-color: #0F70A1;
+    float: left;
+    margin: -400px 0 0;
+    box-sizing: border-box;
+}
